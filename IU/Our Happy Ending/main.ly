@@ -4,6 +4,7 @@
 \header {
   title = "Happy Ending"
   subtitle = "Hotel Del Luna OST"
+  subsubtitle = "transcribed by Jeong Jun Ahn"
   composer = "Lyrics & Composed by IU"
 }
 
