@@ -10,100 +10,113 @@
 
 rightHand = \fixed c' {
   \tempo 4 = 74
-  % 1
-  r4 a b cis'
-  % 2
-  e'4. d'8 fis2
-  % 3
-  r8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'
-  % 4
-  g'4. <b d'>8 b2
-  % 5
-  a8 fis'16 g'~ g'8 fis'16 g'~ g'8 fis'16 g'~ g'8 fis'
-  % 6
-  a'4.. a16 a'8 fis' e' dis'~
-  % 7
-  dis' r dis' e'~ e' fis'4.
-  % 8
-  a'8. g'16~ g'8 b~ b4. r8
-  % 9
-  r2 r8 e' fis' g'
-  % 10
-  \acciaccatura fis' f' e' d' r r2
-  % 11
-  r r8 <a a'> <b b'> <cis' cis''>
-  % 12
-  <e' fis' fis''>4. <d' d''>8 fis2
-  % 13
-  <d' d''>8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'
-  % 14
-  <g' g''>4. <b d''>8 b2
-  % 15
-  <b' b''>8 fis'16 g'~ g'8 fis'16 g'~ <g' a' a''>8 fis'16 g' <g' g''>8 gis' 
-  % 16
-  <a' a''>4.. a16 a'8 fis'' e'' dis''~
-  % 17
-  <dis' dis''> r dis' <e' e''>~ <e' e''> <fis' fis''>4.
-  % 18
-  << {a''8 g'' d'' d''~ d''2} \\ {a'8. g'16~ g'8 d'~ d'2} >>
-  % 19
-  r r8 e' fis' g'
-  % 20
-  \acciaccatura fis' f' e' d'2.~
-  % 21
-  d'2 \ottava 1 <fis' b' fis''>4 <g' cis'' g''>
-  % 22
-  <a' a''>8 <b' b''> <cis'' cis'''> <d'' d'''> <cis'' cis'''>4 <fis' fis''>8 <a' a''>~
-  % 23
-  <e' a''>2 <fis' d'' fis''>4 <g' cis'' g''>
-  % 24
-  \acciaccatura fis'8 <a' a''> <b' b''> <cis'' e'' cis'''> <d'' fis'' d'''> <cis'' e'' cis'''>4 <a' bes' a''>8~ <g' bes' g''>~
-  % 25
-  g'4 <bes d'>8 d' <fis' a' fis''>4 <d' e' g' d''>8 fis'~
-  % 26
-  fis' \ottava 0 r cis' d' fis' <cis' a'> <d' b'> <ees' c''>~
-  % 27
-  <dis' gis' c''> b'4 a' g'8 fis' g'
-  % 28
-  r2 r8 fis'4 e'8~
-  % 29
-  e'2 <fis b d' fis'>4 <g cis' g'>
-  % 30
-  \acciaccatura fis'8 <cis' e' fis' a'> b' cis'' d'' cis''4 fis'8 a'~
-  % 31
-  a'2 fis'4 g'
-  % 32
-  a'8 b' cis'' d'' cis''4 d''8. d''16~ 
-  % 33
-  <fis' d''>2 d''8 cis'' a' b'
-  % 34
-  r4. b'8 b' a' g' a'
-  % 35
-  r2. d'8 a'
-  % 36
-  g' fis' e'2.~
-  % 37
-  e'4 a b cis'
-  % 38
-  e'4. <d' d''>8 fis2
-  % 39
-  r8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'
-  % 40
-  g'4. <b d'>8 b2
-  % 41
-  r8 fis'16 g'~ g'8 fis'16 g'~ g'8 fis'16 g'~ g'8 gis'
-  % 42
-  a'4.. a16 a'8 fis' e' dis'~
-  % 43
-  dis' r dis' e'~ e' fis'4.
-  % 44
-  \tuplet 3/2 {a'4 g' d'} r2
-  % 45
-  r r8 e' fis' g'
-  % 46
-  \acciaccatura fis' f' e' d' r r2
-  % 47
-  r1 \bar "|."
+  \new Voice = "melody" {
+    % 1
+    r4 a b cis'
+    % 2
+    e'4. d'8 fis2
+    % 3
+    r8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'
+    % 4
+    g'4. <b d'>8 b2
+    % 5
+    a8 fis'16 g'~ g'8 fis'16 g'~ g'8 fis'16 g'~ g'8 fis'
+    % 6
+    a'4.. a16 a'8 fis' e' dis'~
+    % 7
+    dis' r dis' e'~ e' fis'4.
+    % 8
+    a'8. g'16~ g'8 b~ b4. r8
+    % 9
+    r2 r8 e' fis' g'
+    % 10
+    \acciaccatura fis' f' e' d' r r2
+    % 11
+    r r8 <a a'> <b b'> <cis' cis''>
+    % 12
+    <e' fis' fis''>4. <d' d''>8 fis2
+    % 13
+    <d' d''>8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'
+    % 14
+    <g' g''>4. <b d''>8 b2
+    % 15
+    <b' b''>8 fis'16 g'~ g'8 fis'16 g'~ <g' a' a''>8 fis'16 g' <g' g''>8 gis' 
+    % 16
+    <a' a''>4.. a16 a'8 fis'' e'' dis''~
+    % 17
+    <dis' dis''> r dis' <e' e''>~ <e' e''> <fis' fis''>4.
+    % 18
+    << 
+      {
+        \voiceOne
+        \stemDown a'8. g'16~ g'8 d'~ d'2
+      }
+      \new Voice {
+        \voiceTwo
+        \stemUp a''8 g'' d'' d''~ d''2
+      }
+    >>
+    \oneVoice
+    \stemNeutral
+    % 19
+    r r8 e' fis' g'
+    % 20
+    \acciaccatura fis' f' e' d'2.~
+    % 21
+    d'2 \ottava 1 <fis' b' fis''>4 <g' cis'' g''>
+    % 22
+    <a' a''>8 <b' b''> <cis'' cis'''> <d'' d'''> <cis'' cis'''>4 <fis' fis''>8 <a' a''>~
+    % 23
+    <e' a''>2 <fis' d'' fis''>4 <g' cis'' g''>
+    % 24
+    \acciaccatura fis'8 <a' a''> <b' b''> <cis'' e'' cis'''> <d'' fis'' d'''> <cis'' e'' cis'''>4 <a' bes' a''>8~ <g' bes' g''>~
+    % 25
+    g'4 <bes d'>8 d' <fis' a' fis''>4 <d' e' g' d''>8 fis'~
+    % 26
+    fis' \ottava 0 r cis' d' fis' <cis' a'> <d' b'> <ees' c''>~
+    % 27
+    <dis' gis' c''> b'4 a' g'8 fis' g'
+    % 28
+    r2 r8 fis'4 e'8~
+    % 29
+    e'2 <fis b d' fis'>4 <g cis' g'>
+    % 30
+    \acciaccatura fis'8 <cis' e' fis' a'> b' cis'' d'' cis''4 fis'8 a'~
+    % 31
+    a'2 fis'4 g'
+    % 32
+    a'8 b' cis'' d'' cis''4 d''8. d''16~ 
+    % 33
+    <fis' d''>2 d''8 cis'' a' b'
+    % 34
+    r4. b'8 b' a' g' a'
+    % 35
+    r2. d'8 a'
+    % 36
+    g' fis' e'2.~
+    % 37
+    e'4 a b cis'
+    % 38
+    e'4. <d' d''>8 fis2
+    % 39
+    r8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'16 fis'~ fis'8 e'
+    % 40
+    g'4. <b d'>8 b2
+    % 41
+    r8 fis'16 g'~ g'8 fis'16 g'~ g'8 fis'16 g'~ g'8 gis'
+    % 42
+    a'4.. a16 a'8 fis' e' dis'~
+    % 43
+    dis' r dis' e'~ e' fis'4.
+    % 44
+    \tuplet 3/2 {a'4 g' d'} r2
+    % 45
+    r r8 e' fis' g'
+    % 46
+    \acciaccatura fis' f' e' d' r r2
+    % 47
+    r1 \bar "|."
+  }
 }
 
 leftHand = \fixed c {
@@ -221,6 +234,7 @@ text = \lyricmode {
   _ 너 를 기 억 할 수 _ 있
   는 흉 이 지 도 록
   기 꺼 이
+  아 플 게
   그 래 주
   겠 _ 니
   연 약
@@ -258,10 +272,9 @@ text = \lyricmode {
       \new Staff = "RH" {
         \clef treble
         \key d \major
-        \new Voice = "singer"
         \rightHand
       }
-      \new Lyrics \lyricsto "singer" \text
+      \new Lyrics \lyricsto "melody" \text
       \new Staff = "LH" {
         \clef bass
         \key d \major
